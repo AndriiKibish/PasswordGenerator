@@ -1,0 +1,11 @@
+{% extends 'generator/base.html' %}
+
+{% block title %} About {% endblock %}
+
+{% block content %}
+
+    <h1>About service</h1>
+    <p> This service allows to generate random safe password according to your own
+        <a href="{% url 'settings' %}">settings </a></p>
+
+{% endblock %}
